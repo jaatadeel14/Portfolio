@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeel PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script>
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Adeel.</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <div class="grid-content">
+                <div class="grid-first">
+                    <h1>Hi, I'm Adeel Jaat</h1>
+                    <h3>Software Engineer</h3>
+                    <p>A highly motivated computer engineering student with a passion for innovation and
+                        problem-solving. I'm currently pursuing my Bachelor's degree in Computer Engineering at Suleyman
+                        Demirel University SDU Isparta, where I'm learning how to design, develop and implement
+                        cutting-edge software and hardware systems.</p>
+                    <div class="btn-box">
+                        <a href="#">Hire me</a>
+                        <a href="#">Let's Talk</a>
+                    </div>
+                </div>
+                <div class="grid-second">
+                    <img class="bg-img" src="bg.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" class="contact-input" id="name" name="name"><br>
+            <label for="email" >Email:</label><br>
+            <input class="contact-input" type="text" id="email" name="email"><br>
+            <label for="message" >Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <div class="btn-box">
+                <a href="#">Submit</a>
+            </div>
+        </form>
+    </section>
+</body>
+<footer>
+    <p>&copy; <span id="copyright-year"></span> Adeel Shabbir</p>
+</footer>
+
+</html>
